@@ -1,0 +1,26 @@
+{
+  "protocol": "trust/1.0",
+  "claim_id": "clm_01M2N4M1NNNB1YJRM3CWDJSED1",
+  "subject": "placement:no-label-needed:zooted-zone",
+  "statement": "\"Zooted Zone\" by That Boy Hi Hat observed at position 21 on Flow's \"No Label Needed\" Spotify playlist.",
+  "evidence": {
+    "method": "spotify-playlist-scan",
+    "observed_at": "2026-09-16T12:55:57.359175+00:00",
+    "source_url": "https://open.spotify.com/playlist/79Qj8SYOl5zW4m4dMprrX9",
+    "raw_ref": {
+      "playlist_id": "79Qj8SYOl5zW4m4dMprrX9",
+      "playlist_title": "No Label Needed- Hip Hop & R&B| The Next Wave",
+      "track": "Zooted Zone",
+      "position": 21,
+      "found": true
+    }
+  },
+  "tier": "VERIFIED",
+  "issuer": "Cumulative Web Inc",
+  "issued_at": "2026-09-16T12:56:13Z",
+  "prev_hash": "c4b3af9e45d661619c40993885543b23011d8b4fb8d3b1de927a396cf7862ba3",
+  "signature": {
+    "alg": "Ed25519",
+    "sig": "jiVIAVb0oKA4BeL+yQG3xlmVCyD9E1lpj0COtv/rdJUuHpuyBhzygpBKXsFHQzNk/8zLFJUsphZsdcdi/45SBQ=="
+  }
+}

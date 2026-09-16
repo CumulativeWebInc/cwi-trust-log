@@ -1,0 +1,24 @@
+{
+  "protocol": "trust/1.0",
+  "claim_id": "clm_01M2N4M1NPH8F2BNVRYY14PCMS",
+  "subject": "dataset:cwi-catalog-hf",
+  "statement": "Hugging Face dataset BlackLansky/cwi-catalog carries the 35-track multi-artist catalog as tracks.jsonl (CC-BY-4.0, built for RAG).",
+  "evidence": {
+    "method": "huggingface-api-verification",
+    "observed_at": "2026-09-16T12:56:30.000000+00:00",
+    "source_url": "https://huggingface.co/datasets/BlackLansky/cwi-catalog",
+    "raw_ref": {
+      "repo": "BlackLansky/cwi-catalog",
+      "commit_sha": "1e85b626d11c90f6047d822217c79b9fbd0e7fde",
+      "tracks_jsonl_lines": 35
+    }
+  },
+  "tier": "VERIFIED",
+  "issuer": "Cumulative Web Inc",
+  "issued_at": "2026-09-16T12:56:13Z",
+  "prev_hash": "2b7e78ac96baaa4bcbf5a350f69cee4b41370e514753310b19c50e597290a57e",
+  "signature": {
+    "alg": "Ed25519",
+    "sig": "deDPSoJ/xTQ5VBgwQwNyXdD5urkzHb8QMioEx5/l7kDinDF5EG8MZBRrsAMd41XUBfI1y9IaERIY8v/yY6smBQ=="
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "protocol": "trust/1.0",
+  "claim_id": "clm_01M2N4M1NGV4CESAMM4D1Y0KVD",
+  "subject": "app:cwi-brief-matcher",
+  "statement": "CWI Brief Matcher shipped to production: paste a scene brief, get ranked catalog recommendations with published transparent scoring, clearance status, and copy-paste pitch blocks.",
+  "evidence": {
+    "method": "github-release-verification",
+    "observed_at": "2026-09-16T12:56:30.000000+00:00",
+    "source_url": "https://cumulativewebinc.github.io/cwi-brief-matcher/",
+    "raw_ref": {
+      "repo": "CumulativeWebInc/cwi-brief-matcher",
+      "merge_sha": "8654379c4666fcfd05272b31ec9758dce61aedf6",
+      "url_status": 200,
+      "tests": "15/15",
+      "tests_source": "~/workspace/cwi-company/apps/app-factory/week1/brief-matcher/test.js (local build staging; no test files in the GitHub repo itself)"
+    }
+  },
+  "tier": "VERIFIED",
+  "issuer": "Cumulative Web Inc",
+  "issued_at": "2026-09-16T12:56:13Z",
+  "prev_hash": "9a5a7036c8db6cae0763b198729598dc09e1acb82f1f7fe61d976fa8c636e47b",
+  "signature": {
+    "alg": "Ed25519",
+    "sig": "22j4MUs+bndcO/8jihUv7OaAam7Lbrh6t+tITVXQsI3tWUMPHuSLWlaCipeibi4xxemEBfwpgFpyKrm0KAkfBg=="
+  }
+}

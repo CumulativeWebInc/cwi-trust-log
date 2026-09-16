@@ -1,0 +1,26 @@
+{
+  "protocol": "trust/1.0",
+  "claim_id": "clm_01M2N4M1NJS084QKAA9N4AD6EQ",
+  "subject": "placement:new-rap-hits:shaka-zulu",
+  "statement": "\"Shaka Zulu\" by That Boy Hi Hat observed at position 21 on the \"New Rap Hits\" Spotify playlist.",
+  "evidence": {
+    "method": "spotify-playlist-scan",
+    "observed_at": "2026-09-16T12:55:54.514834+00:00",
+    "source_url": "https://open.spotify.com/playlist/5zhnSpZqKRRaOvRMWuT0bL",
+    "raw_ref": {
+      "playlist_id": "5zhnSpZqKRRaOvRMWuT0bL",
+      "playlist_title": "New Rap Hits",
+      "track": "Shaka Zulu",
+      "position": 21,
+      "found": true
+    }
+  },
+  "tier": "VERIFIED",
+  "issuer": "Cumulative Web Inc",
+  "issued_at": "2026-09-16T12:56:13Z",
+  "prev_hash": "4b0fc24742f2f7148335a633a7e0ceabd64d384ce02a0320c3d9c01422113d3b",
+  "signature": {
+    "alg": "Ed25519",
+    "sig": "BgXJOVEWnL3aTzO7/xq2GbYzxrK0WELoG094oBKYMVEg2cVTKsJ0TWZxz1an5+b2cqk8uVN6BCMLGNWvKxewDA=="
+  }
+}

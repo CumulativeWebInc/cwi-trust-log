@@ -1,0 +1,66 @@
+[
+  {
+    "title": "CWI catalog dataset live on Hugging Face",
+    "date": "2026-09-16",
+    "claim_id": "clm_01M2N4M1NPH8F2BNVRYY14PCMS",
+    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NPH8F2BNVRYY14PCMS.html",
+    "tier": "VERIFIED",
+    "summary": "BlackLansky/cwi-catalog carries the 35-track multi-artist catalog as tracks.jsonl (CC-BY-4.0, built for RAG)."
+  },
+  {
+    "title": "“Zooted Zone” at #21 on No Label Needed",
+    "date": "2026-09-16",
+    "claim_id": "clm_01M2N4M1NNNB1YJRM3CWDJSED1",
+    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NNNB1YJRM3CWDJSED1.html",
+    "tier": "VERIFIED",
+    "summary": "\"Zooted Zone\" by That Boy Hi Hat observed at position 21 on Flow's \"No Label Needed\" playlist — confirmed by a fresh independent scan 2026-09-16."
+  },
+  {
+    "title": "“Doves & Diamonds” at #31 on New Rap Hits",
+    "date": "2026-09-16",
+    "claim_id": "clm_01M2N4M1NM1APFBWFWJ4CE6ZVG",
+    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NM1APFBWFWJ4CE6ZVG.html",
+    "tier": "VERIFIED",
+    "summary": "\"Doves & Diamonds\" by That Boy Hi Hat observed at position 31 on the New Rap Hits Spotify playlist (673 followers)."
+  },
+  {
+    "title": "“Zooted Zone” at #30 on New Rap Hits",
+    "date": "2026-09-16",
+    "claim_id": "clm_01M2N4M1NKM8WC5CT9FCGPHAQB",
+    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NKM8WC5CT9FCGPHAQB.html",
+    "tier": "VERIFIED",
+    "summary": "\"Zooted Zone\" by That Boy Hi Hat observed at position 30 on the New Rap Hits Spotify playlist (673 followers)."
+  },
+  {
+    "title": "“Shaka Zulu” at #21 on New Rap Hits",
+    "date": "2026-09-16",
+    "claim_id": "clm_01M2N4M1NJS084QKAA9N4AD6EQ",
+    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NJS084QKAA9N4AD6EQ.html",
+    "tier": "VERIFIED",
+    "summary": "\"Shaka Zulu\" by That Boy Hi Hat observed at position 21 on the New Rap Hits Spotify playlist (673 followers)."
+  },
+  {
+    "title": "CWI catalog expanded: 35 tracks, 4 artists",
+    "date": "2026-09-16",
+    "claim_id": "clm_01M2N4M1NH3BJ6BWJWCGX47PZ0",
+    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NH3BJ6BWJWCGX47PZ0.html",
+    "tier": "VERIFIED",
+    "summary": "Machine-readable catalog now spans 35 tracks across 4 artists (That Boy Hi Hat, King Akeem, 183 Wildboi, Dre50), served at cwi-learn/catalog.json."
+  },
+  {
+    "title": "CWI Brief Matcher shipped to production",
+    "date": "2026-09-16",
+    "claim_id": "clm_01M2N4M1NGV4CESAMM4D1Y0KVD",
+    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NGV4CESAMM4D1Y0KVD.html",
+    "tier": "VERIFIED",
+    "summary": "Paste a scene brief, get ranked catalog recommendations with published transparent scoring, clearance status, and copy-paste pitch blocks."
+  },
+  {
+    "title": "CWI Sync Audition Room shipped to production",
+    "date": "2026-09-16",
+    "claim_id": "clm_01M2N4M1NB3D6V7JREVW7GNF8J",
+    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NB3D6V7JREVW7GNF8J.html",
+    "tier": "VERIFIED",
+    "summary": "24-track sync catalog browser with real Spotify embeds, editorial mood filters, clearance status, shareable track deep links, and machine-readable tracks.json."
+  }
+]

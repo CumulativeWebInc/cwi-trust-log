@@ -1,0 +1,25 @@
+{
+  "protocol": "trust/1.0",
+  "claim_id": "clm_01M2N4M1NH3BJ6BWJWCGX47PZ0",
+  "subject": "catalog:cwi-multi-artist-expansion",
+  "statement": "CWI machine-readable catalog expanded to 35 tracks across 4 artists (That Boy Hi Hat, King Akeem, 183 Wildboi, Dre50), served at cwi-learn/catalog.json.",
+  "evidence": {
+    "method": "github-commit-and-content-verification",
+    "observed_at": "2026-09-16T12:56:30.000000+00:00",
+    "source_url": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+    "raw_ref": {
+      "repo": "CumulativeWebInc/cwi-learn",
+      "commit_sha": "d5b3ded24085c798b7241d754986fcfe2b99d600",
+      "artists_counted": 4,
+      "tracks_counted": 35
+    }
+  },
+  "tier": "VERIFIED",
+  "issuer": "Cumulative Web Inc",
+  "issued_at": "2026-09-16T12:56:13Z",
+  "prev_hash": "76fb36c826dd32b925b58e1487c9f9ed226999c83bd5109444d02345947111e2",
+  "signature": {
+    "alg": "Ed25519",
+    "sig": "1AFfV8lI1yajxUzMlObe9ZOPLyYU2nomr6Jdv4hWDw1FR4nlrDCvv78fwTlwyVkDnVZCKX4IryHtz5lXr2eIBA=="
+  }
+}

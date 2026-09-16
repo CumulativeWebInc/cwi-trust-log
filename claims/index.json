@@ -1,0 +1,74 @@
+{
+  "protocol": "trust/1.0",
+  "issuer": "Cumulative Web Inc",
+  "generated_at": "2026-09-16T12:56:13Z",
+  "genesis_prev_hash": "GENESIS",
+  "tip_hash": "f9bd455b78b37308420e7b337d72f9e954397f6e39c95c7ac3016fa19f56479a",
+  "count": 8,
+  "claims": [
+    {
+      "claim_id": "clm_01M2N4M1NB3D6V7JREVW7GNF8J",
+      "subject": "app:cwi-sync-audition",
+      "tier": "VERIFIED",
+      "issued_at": "2026-09-16T12:56:13Z",
+      "claim_hash": "9a5a7036c8db6cae0763b198729598dc09e1acb82f1f7fe61d976fa8c636e47b",
+      "prev_hash": "GENESIS"
+    },
+    {
+      "claim_id": "clm_01M2N4M1NGV4CESAMM4D1Y0KVD",
+      "subject": "app:cwi-brief-matcher",
+      "tier": "VERIFIED",
+      "issued_at": "2026-09-16T12:56:13Z",
+      "claim_hash": "76fb36c826dd32b925b58e1487c9f9ed226999c83bd5109444d02345947111e2",
+      "prev_hash": "9a5a7036c8db6cae0763b198729598dc09e1acb82f1f7fe61d976fa8c636e47b"
+    },
+    {
+      "claim_id": "clm_01M2N4M1NH3BJ6BWJWCGX47PZ0",
+      "subject": "catalog:cwi-multi-artist-expansion",
+      "tier": "VERIFIED",
+      "issued_at": "2026-09-16T12:56:13Z",
+      "claim_hash": "4b0fc24742f2f7148335a633a7e0ceabd64d384ce02a0320c3d9c01422113d3b",
+      "prev_hash": "76fb36c826dd32b925b58e1487c9f9ed226999c83bd5109444d02345947111e2"
+    },
+    {
+      "claim_id": "clm_01M2N4M1NJS084QKAA9N4AD6EQ",
+      "subject": "placement:new-rap-hits:shaka-zulu",
+      "tier": "VERIFIED",
+      "issued_at": "2026-09-16T12:56:13Z",
+      "claim_hash": "5f37ab71a944f90521b40c2482fb1231f1b1902c66af88dd45c184be175b367f",
+      "prev_hash": "4b0fc24742f2f7148335a633a7e0ceabd64d384ce02a0320c3d9c01422113d3b"
+    },
+    {
+      "claim_id": "clm_01M2N4M1NKM8WC5CT9FCGPHAQB",
+      "subject": "placement:new-rap-hits:zooted-zone",
+      "tier": "VERIFIED",
+      "issued_at": "2026-09-16T12:56:13Z",
+      "claim_hash": "8e6f5d0b5e55514fc8e9d4f8b3a787885a07aa71857a972a5d10003acdb317ad",
+      "prev_hash": "5f37ab71a944f90521b40c2482fb1231f1b1902c66af88dd45c184be175b367f"
+    },
+    {
+      "claim_id": "clm_01M2N4M1NM1APFBWFWJ4CE6ZVG",
+      "subject": "placement:new-rap-hits:doves-diamonds",
+      "tier": "VERIFIED",
+      "issued_at": "2026-09-16T12:56:13Z",
+      "claim_hash": "c4b3af9e45d661619c40993885543b23011d8b4fb8d3b1de927a396cf7862ba3",
+      "prev_hash": "8e6f5d0b5e55514fc8e9d4f8b3a787885a07aa71857a972a5d10003acdb317ad"
+    },
+    {
+      "claim_id": "clm_01M2N4M1NNNB1YJRM3CWDJSED1",
+      "subject": "placement:no-label-needed:zooted-zone",
+      "tier": "VERIFIED",
+      "issued_at": "2026-09-16T12:56:13Z",
+      "claim_hash": "2b7e78ac96baaa4bcbf5a350f69cee4b41370e514753310b19c50e597290a57e",
+      "prev_hash": "c4b3af9e45d661619c40993885543b23011d8b4fb8d3b1de927a396cf7862ba3"
+    },
+    {
+      "claim_id": "clm_01M2N4M1NPH8F2BNVRYY14PCMS",
+      "subject": "dataset:cwi-catalog-hf",
+      "tier": "VERIFIED",
+      "issued_at": "2026-09-16T12:56:13Z",
+      "claim_hash": "f9bd455b78b37308420e7b337d72f9e954397f6e39c95c7ac3016fa19f56479a",
+      "prev_hash": "2b7e78ac96baaa4bcbf5a350f69cee4b41370e514753310b19c50e597290a57e"
+    }
+  ]
+}
