@@ -20,16 +20,16 @@ footer{margin-top:40px;color:var(--mut);font-size:12px;text-align:center}
 </style></head>
 <body>
 <header class="top"><div class="badge">◈</div><div><h1>CWI Trust Fabric</h1>
-<p class="sub">Cumulative Web Inc · signed claims, hash-chained · trust/1.0</p></div></header>
-<div class="nav"><a href="https://cumulativewebinc.github.io/cwi-trust-log/">← trust log</a><a href="https://cumulativewebinc.github.io/cwi-trust-log/achievements.html">achievements</a></div>
+<p class="sub" data-i18n="header.sub">Cumulative Web Inc · signed claims, hash-chained · trust/1.0</p></div></header>
+<div class="nav"><a href="https://cumulativewebinc.github.io/cwi-trust-log/" data-i18n="nav.log">← trust log</a><a href="https://cumulativewebinc.github.io/cwi-trust-log/achievements.html" data-i18n="nav.achievements.link">achievements</a></div>
 <h2>CWI Sync Audition Room shipped to production<span class="tier">VERIFIED</span></h2>
 <div class="card"><p style="margin:0">CWI Sync Audition Room shipped to production: 24-track sync catalog browser with real Spotify embeds, editorial mood filters, clearance status, shareable track deep links, and machine-readable tracks.json.</p></div>
-<h2>Evidence</h2>
+<h2 data-i18n="sec.evidence">Evidence</h2>
 <div class="card">
-<p><b>Method:</b> <span class="mono">github-release-verification</span></p>
-<p><b>Observed at:</b> <span class="mono">2026-09-16T12:56:30.000000+00:00</span></p>
-<p><b>Source:</b> <a href="https://cumulativewebinc.github.io/cwi-sync-audition/" class="mono">https://cumulativewebinc.github.io/cwi-sync-audition/</a></p>
-<p><b>Raw record:</b></p>
+<p><b data-i18n="lbl.method">Method:</b> <span class="mono">github-release-verification</span></p>
+<p><b data-i18n="lbl.observed">Observed at:</b> <span class="mono">2026-09-16T12:56:30.000000+00:00</span></p>
+<p><b data-i18n="lbl.source">Source:</b> <a href="https://cumulativewebinc.github.io/cwi-sync-audition/" class="mono">https://cumulativewebinc.github.io/cwi-sync-audition/</a></p>
+<p><b data-i18n="lbl.raw">Raw record:</b></p>
 <pre>{
   &quot;repo&quot;: &quot;CumulativeWebInc/cwi-sync-audition&quot;,
   &quot;merge_sha&quot;: &quot;5d377dcee5f0441a985d4902ef9f2c8d2309deec&quot;,
@@ -39,21 +39,22 @@ footer{margin-top:40px;color:var(--mut);font-size:12px;text-align:center}
   &quot;tracks_json&quot;: &quot;https://cumulativewebinc.github.io/cwi-sync-audition/tracks.json&quot;
 }</pre>
 </div>
-<h2>Signature</h2>
+<h2 data-i18n="sec.signature">Signature</h2>
 <div class="card">
-<p><b>Issuer:</b> Cumulative Web Inc · <b>Issued:</b> <span class="mono">2026-09-16T12:56:13Z</span></p>
-<p><b>Algorithm:</b> <span class="mono">Ed25519</span></p>
-<p><b>Signature:</b><br><span class="mono hash">TeWw9BnvdstfJmafTArgQ1aPAR4WuHcg9lalG6FaG46zptqpuYDn+8tE03ye2Y49BPNC995HOx8ojH8DtW6HCQ==</span></p>
-<p><b>Claim hash:</b><br><span class="mono hash">9a5a7036c8db6cae0763b198729598dc09e1acb82f1f7fe61d976fa8c636e47b</span></p>
-<p><b>Previous:</b> <span class="mono hash">GENESIS</span></p>
-<p class="dim">Envelope JSON: <a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NB3D6V7JREVW7GNF8J.json" class="mono">clm_01M2N4M1NB3D6V7JREVW7GNF8J.json</a></p>
+<p><b data-i18n="lbl.issuer">Issuer:</b> Cumulative Web Inc · <b data-i18n="lbl.issued">Issued:</b> <span class="mono">2026-09-16T12:56:13Z</span></p>
+<p><b data-i18n="lbl.algorithm">Algorithm:</b> <span class="mono">Ed25519</span></p>
+<p><b data-i18n="lbl.signature">Signature:</b><br><span class="mono hash">TeWw9BnvdstfJmafTArgQ1aPAR4WuHcg9lalG6FaG46zptqpuYDn+8tE03ye2Y49BPNC995HOx8ojH8DtW6HCQ==</span></p>
+<p><b data-i18n="lbl.hash">Claim hash:</b><br><span class="mono hash">9a5a7036c8db6cae0763b198729598dc09e1acb82f1f7fe61d976fa8c636e47b</span></p>
+<p><b data-i18n="lbl.previous">Previous:</b> <span class="mono hash">GENESIS</span></p>
+<p class="dim"><span data-i18n="lbl.envelope">Envelope JSON:</span> <a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NB3D6V7JREVW7GNF8J.json" class="mono">clm_01M2N4M1NB3D6V7JREVW7GNF8J.json</a></p>
 </div>
-<h2>Verify this signature yourself</h2>
+<h2 data-i18n="sec.verify">Verify this signature yourself</h2>
 <div class="card"><ol class="steps">
-<li>Download the zero-dependency verifier: <a href="https://cumulativewebinc.github.io/cwi-trust-log/verify.js" class="mono">verify.js</a></li>
-<li>Run it against this claim — it fetches the public key and chain index on its own:<br>
+<li><span data-i18n="claim.step1">Download the zero-dependency verifier:</span> <a href="https://cumulativewebinc.github.io/cwi-trust-log/verify.js" class="mono">verify.js</a></li>
+<li><span data-i18n="claim.step2">Run it against this claim — it fetches the public key and chain index on its own:</span><br>
 <code class="mono">node verify.js https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NB3D6V7JREVW7GNF8J.json</code></li>
-<li>Look for <b>RESULT: PASS</b> — signature valid, hash matches, chain links to GENESIS. You never had to trust us.</li>
+<li><span data-i18n="claim.step3a">Look for</span> <b data-i18n="cli.pass">RESULT: PASS</b><span data-i18n="claim.step3b"> — signature valid, hash matches, chain links to GENESIS. You never had to trust us.</span></li>
 </ol></div>
-<footer>CWI Trust Fabric · every claim signed · <a href="https://cumulativewebinc.github.io/cwi-trust-log/TRUST-PROTOCOL.md">protocol</a> · <a href="https://cumulativewebinc.github.io/cwi-trust-log/verify.js">verify.js</a></footer>
+<footer><span data-i18n="foot.tag">CWI Trust Fabric · every claim signed ·</span> <a href="https://cumulativewebinc.github.io/cwi-trust-log/TRUST-PROTOCOL.md" data-i18n="foot.protocol">protocol</a> · <a href="https://cumulativewebinc.github.io/cwi-trust-log/verify.js">verify.js</a></footer>
+<script src="https://cumulativewebinc.github.io/cwi-i18n/i18n.js" data-app="trust-log"></script>
 </body></html>

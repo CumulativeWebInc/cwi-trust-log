@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>CWI Trust Fabric — signed claim log — CWI Trust Fabric</title><style>
+<title data-i18n="page.title">CWI Trust Fabric — signed claim log — CWI Trust Fabric</title><style>
 :root{--bg:#0b0b0e;--card:#141419;--gold:#e8b13c;--txt:#ececf1;--mut:#9a9aad;--line:#26262e}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.6 -apple-system,system-ui,Segoe UI,Roboto,sans-serif;padding:20px 14px 60px;max-width:760px;margin-left:auto;margin-right:auto}
 header.top{display:flex;align-items:center;gap:12px;margin:8px 0 20px}
@@ -20,21 +20,21 @@ footer{margin-top:40px;color:var(--mut);font-size:12px;text-align:center}
 </style></head>
 <body>
 <header class="top"><div class="badge">◈</div><div><h1>CWI Trust Fabric</h1>
-<p class="sub">Cumulative Web Inc · signed claims, hash-chained · trust/1.0</p></div></header>
-<p class="dim" style="font-size:15px">A public transparency log. Every material claim Cumulative Web Inc makes is published here as a <b>signed claim envelope</b> — Ed25519 signature, SHA-256 hash chain. Verify any claim yourself with zero trust in us.</p>
+<p class="sub" data-i18n="header.sub">Cumulative Web Inc · signed claims, hash-chained · trust/1.0</p></div></header>
+<p class="dim" style="font-size:15px"><span data-i18n="intro.1">A public transparency log. Every material claim Cumulative Web Inc makes is published here as a </span><b data-i18n="intro.term">signed claim envelope</b><span data-i18n="intro.2"> — Ed25519 signature, SHA-256 hash chain. Verify any claim yourself with zero trust in us.</span></p>
 <div class="card">
-<p style="margin:4px 0"><b>Live chain tip:</b></p>
+<p style="margin:4px 0"><b data-i18n="chain.tip">Live chain tip:</b></p>
 <p class="mono hash" style="margin:4px 0">f9bd455b78b37308420e7b337d72f9e954397f6e39c95c7ac3016fa19f56479a</p>
-<p class="dim" style="margin:6px 0">8 claims · protocol trust/1.0 · genesis GENESIS</p>
+<p class="dim" style="margin:6px 0" data-i18n="chain.info">8 claims · protocol trust/1.0 · genesis GENESIS</p>
 </div>
-<h2>Verify in 3 steps</h2>
+<h2 data-i18n="verify.title">Verify in 3 steps</h2>
 <div class="card"><ol class="steps">
-<li>Get <a href="https://cumulativewebinc.github.io/cwi-trust-log/verify.js" class="mono">verify.js</a> (zero dependencies, Node 18+).</li>
-<li>Run <code class="mono">node verify.js https://cumulativewebinc.github.io/cwi-trust-log/claims/&lt;claim_id&gt;.json</code> — it fetches the public key and chain index itself.</li>
-<li>Look for <b>RESULT: PASS</b>: the Ed25519 signature is real, the hash recomputes, and the chain links unbroken to GENESIS.</li>
+<li><span data-i18n="verify.step1a">Get</span> <a href="https://cumulativewebinc.github.io/cwi-trust-log/verify.js" class="mono">verify.js</a> <span data-i18n="verify.step1b">(zero dependencies, Node 18+).</span></li>
+<li><span data-i18n="verify.step2a">Run</span> <code class="mono">node verify.js https://cumulativewebinc.github.io/cwi-trust-log/claims/&lt;claim_id&gt;.json</code><span data-i18n="verify.step2b"> — it fetches the public key and chain index itself.</span></li>
+<li><span data-i18n="verify.step3a">Look for</span> <b data-i18n="cli.pass">RESULT: PASS</b><span data-i18n="verify.step3b">: the Ed25519 signature is real, the hash recomputes, and the chain links unbroken to GENESIS.</span></li>
 </ol></div>
-<div class="nav" style="font-size:15px"><a href="https://cumulativewebinc.github.io/cwi-trust-log/achievements.html">🏆 Achievements &amp; results</a><a href="https://cumulativewebinc.github.io/cwi-trust-log/TRUST-PROTOCOL.md">📜 Protocol</a><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/index.json">⛓ Chain index</a></div>
-<h2>Claims in the chain</h2>
+<div class="nav" style="font-size:15px"><a href="https://cumulativewebinc.github.io/cwi-trust-log/achievements.html" data-i18n="nav.achievements">🏆 Achievements &amp; results</a><a href="https://cumulativewebinc.github.io/cwi-trust-log/TRUST-PROTOCOL.md" data-i18n="nav.protocol">📜 Protocol</a><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/index.json" data-i18n="nav.chain">⛓ Chain index</a></div>
+<h2 data-i18n="list.title">Claims in the chain</h2>
 <div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NB3D6V7JREVW7GNF8J.html" style="font-weight:700">CWI Sync Audition Room shipped to production</a><span class="tier">VERIFIED</span>
 <p class="dim" style="margin:6px 0"><span class="mono">clm_01M2N4M1NB3D6V7JREVW7GNF8J</span> · hash <span class="mono hash">9a5a7036c8db6cae…</span></p></div>
 <div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NGV4CESAMM4D1Y0KVD.html" style="font-weight:700">CWI Brief Matcher shipped to production</a><span class="tier">VERIFIED</span>
@@ -51,5 +51,6 @@ footer{margin-top:40px;color:var(--mut);font-size:12px;text-align:center}
 <p class="dim" style="margin:6px 0"><span class="mono">clm_01M2N4M1NNNB1YJRM3CWDJSED1</span> · hash <span class="mono hash">2b7e78ac96baaa4b…</span></p></div>
 <div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NPH8F2BNVRYY14PCMS.html" style="font-weight:700">CWI catalog dataset live on Hugging Face</a><span class="tier">VERIFIED</span>
 <p class="dim" style="margin:6px 0"><span class="mono">clm_01M2N4M1NPH8F2BNVRYY14PCMS</span> · hash <span class="mono hash">f9bd455b78b37308…</span></p></div>
-<footer>CWI Trust Fabric · every claim signed · <a href="https://cumulativewebinc.github.io/cwi-trust-log/TRUST-PROTOCOL.md">protocol</a> · <a href="https://cumulativewebinc.github.io/cwi-trust-log/verify.js">verify.js</a></footer>
+<footer><span data-i18n="foot.tag">CWI Trust Fabric · every claim signed ·</span> <a href="https://cumulativewebinc.github.io/cwi-trust-log/TRUST-PROTOCOL.md" data-i18n="foot.protocol">protocol</a> · <a href="https://cumulativewebinc.github.io/cwi-trust-log/verify.js">verify.js</a></footer>
+<script src="https://cumulativewebinc.github.io/cwi-i18n/i18n.js" data-app="trust-log"></script>
 </body></html>
