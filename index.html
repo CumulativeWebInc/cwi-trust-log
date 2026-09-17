@@ -51,6 +51,16 @@ footer{margin-top:40px;color:var(--mut);font-size:12px;text-align:center}
 <p class="dim" style="margin:6px 0"><span class="mono">clm_01M2N4M1NNNB1YJRM3CWDJSED1</span> · hash <span class="mono hash">2b7e78ac96baaa4b…</span></p></div>
 <div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NPH8F2BNVRYY14PCMS.html" style="font-weight:700">CWI catalog dataset live on Hugging Face</a><span class="tier">VERIFIED</span>
 <p class="dim" style="margin:6px 0"><span class="mono">clm_01M2N4M1NPH8F2BNVRYY14PCMS</span> · hash <span class="mono hash">f9bd455b78b37308…</span></p></div>
+<section id="verify-yourself" style="border:1px solid #2a2f3a;border-radius:12px;padding:20px 22px;margin:28px auto;max-width:860px;background:rgba(255,255,255,.02)">
+<h2 style="margin:0 0 8px">Verify it yourself</h2>
+<p style="margin:0 0 12px;opacity:.85">Don't take our word for it — re-run the check from your own machine or your own agent runtime.</p>
+<ul style="margin:0;padding-left:20px;line-height:1.7">
+<li><strong>In your browser:</strong> <a href="https://cumulativewebinc.github.io/cwi-trust-log/verify.js">verify.js</a> — the zero-trust checker: it fetches the public key and chain index itself — look for RESULT: PASS (Node 18+, zero dependencies).</li>
+<li><strong>From your agent runtime:</strong> <a href="https://github.com/CumulativeWebInc/cwi-mcp-server">cwi-mcp-server</a> — CWI's read-only MCP server. Call <code>needledrop_verify</code>: verify the hash chain of any NEEDLE DROP placement ledger with the same zero-trust mechanics as this log's chain. Zero-trust guide: <a href="https://github.com/CumulativeWebInc/cwi-mcp-server/blob/main/VERIFY.md">VERIFY.md</a>.</li>
+</ul>
+</section>
+
 <footer><span data-i18n="foot.tag">CWI Trust Fabric · every claim signed ·</span> <a href="https://cumulativewebinc.github.io/cwi-trust-log/TRUST-PROTOCOL.md" data-i18n="foot.protocol">protocol</a> · <a href="https://cumulativewebinc.github.io/cwi-trust-log/verify.js">verify.js</a></footer>
 <script src="https://cumulativewebinc.github.io/cwi-i18n/i18n.js" data-app="trust-log"></script>
 </body></html>
+
