@@ -1,6 +1,6 @@
 {
   "protocol": "trust/1.0",
-  "claim_id": "clm_01M2N4M1NM1APFBWFWJ4CE6ZVG",
+  "claim_id": "clm_01M2V5HK1G04YH9GHCR0H0915Y",
   "subject": "placement:new-rap-hits:doves-diamonds",
   "statement": "\"Doves & Diamonds\" by That Boy Hi Hat observed at position 31 on the \"New Rap Hits\" Spotify playlist.",
   "evidence": {
@@ -17,10 +17,10 @@
   },
   "tier": "VERIFIED",
   "issuer": "Cumulative Web Inc",
-  "issued_at": "2026-09-16T12:56:13Z",
-  "prev_hash": "8e6f5d0b5e55514fc8e9d4f8b3a787885a07aa71857a972a5d10003acdb317ad",
+  "issued_at": "2026-09-18T21:07:47Z",
+  "prev_hash": "86235b8239f2b141789415fef43a4cd064196393b2d248440e0d72c8f22c5d22",
   "signature": {
     "alg": "Ed25519",
-    "sig": "yoZA26Fa6oYSv2zzKKoB1NdBH6pny9rqCSeJaL18BiHrjPuUr8AN43O3WsZP10Ju4+QoaN6YyPce5R33HRflCA=="
+    "sig": "hS25Y2hYXHqBK8z0FVni6F+tl2IfDWuchZC48/ZXd3ZNiOFLGq2XHaMLLnVrtHUs4E6WyA3ZEtPfYbg8LQIpCQ=="
   }
 }

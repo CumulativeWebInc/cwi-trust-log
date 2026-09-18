@@ -1,0 +1,28 @@
+{
+  "protocol": "trust/1.0",
+  "claim_id": "clm_01M2V5HK1H7810RPMYXA47E0J5",
+  "subject": "app:cwi-kingcode-lens",
+  "statement": "KingCode Lens v1.0.0 shipped to production: release tag v1.0.0 published 2026-09-18, live browser demo of Meta Ray-Ban Display web apps (simulator lab + conformance-tested adapter stack + voice agent), 117/117 tests green, proprietary self-license.",
+  "evidence": {
+    "method": "github-release-verification",
+    "observed_at": "2026-09-18T21:12:00+00:00",
+    "source_url": "https://github.com/CumulativeWebInc/cwi-kingcode-lens/releases/tag/v1.0.0",
+    "raw_ref": {
+      "repo": "CumulativeWebInc/cwi-kingcode-lens",
+      "tag": "v1.0.0",
+      "tag_published_at": "2026-09-18T12:38:01Z",
+      "demo_url": "https://cumulativewebinc.github.io/cwi-kingcode-lens/",
+      "demo_status": 200,
+      "tests": "117/117",
+      "tests_source": "release record 2026-09-18 (KingCode Lens v1.0.0; MEMORY.md 2026-09-18)"
+    }
+  },
+  "tier": "VERIFIED",
+  "issuer": "Cumulative Web Inc",
+  "issued_at": "2026-09-18T21:07:47Z",
+  "prev_hash": "85baf4f59abe3f4340b1ad610ef566875cf678e613b5337dce99509cf0b2488f",
+  "signature": {
+    "alg": "Ed25519",
+    "sig": "f7C6J0CwogbHMG1e8E99B2DdSQ3zbwaCDlZZ4wCKzSxQAgP28aEz+zGRyL/BuPjs17l+Am3F05HfVySOmM1ACA=="
+  }
+}

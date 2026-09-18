@@ -1,65 +1,89 @@
 [
   {
     "title": "CWI catalog dataset live on Hugging Face",
-    "date": "2026-09-16",
-    "claim_id": "clm_01M2N4M1NPH8F2BNVRYY14PCMS",
-    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NPH8F2BNVRYY14PCMS.html",
+    "date": "2026-09-18",
+    "claim_id": "clm_01M2V5HK1M4A7S9FD2VD385T88",
+    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1M4A7S9FD2VD385T88.html",
     "tier": "VERIFIED",
     "summary": "BlackLansky/cwi-catalog carries the 35-track multi-artist catalog as tracks.jsonl (CC-BY-4.0, built for RAG)."
   },
   {
+    "title": "Playlist placements re-verified holding (2026-09-18)",
+    "date": "2026-09-18",
+    "claim_id": "clm_01M2V5HK1KSND8WYRHCA0QPA85",
+    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1KSND8WYRHCA0QPA85.html",
+    "tier": "VERIFIED",
+    "summary": "Fresh scan 2026-09-18: Shaka Zulu #21, Zooted Zone #30, Doves & Diamonds #31 on New Rap Hits; Zooted Zone #21/21 on Flow’s No Label Needed."
+  },
+  {
+    "title": "CWI Memory Chain iOS PWA live + first anchor→verify→tamper loop",
+    "date": "2026-09-18",
+    "claim_id": "clm_01M2V5HK1J29YTVWA6T0593P6X",
+    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1J29YTVWA6T0593P6X.html",
+    "tier": "VERIFIED",
+    "summary": "On-device anchor verification + tamper-drill button; MUSE_CWI and CWI_Data carry live L1 off-chain anchor records. First live anchor→verify→tamper-drill loop passed 2026-09-18."
+  },
+  {
+    "title": "KingCode Lens v1.0.0 shipped to production",
+    "date": "2026-09-18",
+    "claim_id": "clm_01M2V5HK1H7810RPMYXA47E0J5",
+    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1H7810RPMYXA47E0J5.html",
+    "tier": "VERIFIED",
+    "summary": "Browser demo of Meta Ray-Ban Display web apps — simulator lab, conformance-tested adapter stack, \"Hey KingCode\" voice agent. 117/117 tests green, proprietary self-license, zero deps."
+  },
+  {
     "title": "“Zooted Zone” at #21 on No Label Needed",
     "date": "2026-09-16",
-    "claim_id": "clm_01M2N4M1NNNB1YJRM3CWDJSED1",
-    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NNNB1YJRM3CWDJSED1.html",
+    "claim_id": "clm_01M2V5HK1H92E89153QB44GXQ2",
+    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1H92E89153QB44GXQ2.html",
     "tier": "VERIFIED",
     "summary": "\"Zooted Zone\" by That Boy Hi Hat observed at position 21 on Flow's \"No Label Needed\" playlist — confirmed by a fresh independent scan 2026-09-16."
   },
   {
     "title": "“Doves & Diamonds” at #31 on New Rap Hits",
     "date": "2026-09-16",
-    "claim_id": "clm_01M2N4M1NM1APFBWFWJ4CE6ZVG",
-    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NM1APFBWFWJ4CE6ZVG.html",
+    "claim_id": "clm_01M2V5HK1G04YH9GHCR0H0915Y",
+    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1G04YH9GHCR0H0915Y.html",
     "tier": "VERIFIED",
     "summary": "\"Doves & Diamonds\" by That Boy Hi Hat observed at position 31 on the New Rap Hits Spotify playlist (673 followers)."
   },
   {
     "title": "“Zooted Zone” at #30 on New Rap Hits",
     "date": "2026-09-16",
-    "claim_id": "clm_01M2N4M1NKM8WC5CT9FCGPHAQB",
-    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NKM8WC5CT9FCGPHAQB.html",
+    "claim_id": "clm_01M2V5HK1FE4PQ6VMGJ67976FA",
+    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1FE4PQ6VMGJ67976FA.html",
     "tier": "VERIFIED",
     "summary": "\"Zooted Zone\" by That Boy Hi Hat observed at position 30 on the New Rap Hits Spotify playlist (673 followers)."
   },
   {
     "title": "“Shaka Zulu” at #21 on New Rap Hits",
     "date": "2026-09-16",
-    "claim_id": "clm_01M2N4M1NJS084QKAA9N4AD6EQ",
-    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NJS084QKAA9N4AD6EQ.html",
+    "claim_id": "clm_01M2V5HK1EPKC4ANEGTF2FYHNC",
+    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1EPKC4ANEGTF2FYHNC.html",
     "tier": "VERIFIED",
     "summary": "\"Shaka Zulu\" by That Boy Hi Hat observed at position 21 on the New Rap Hits Spotify playlist (673 followers)."
   },
   {
     "title": "CWI catalog expanded: 35 tracks, 4 artists",
-    "date": "2026-09-16",
-    "claim_id": "clm_01M2N4M1NH3BJ6BWJWCGX47PZ0",
-    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NH3BJ6BWJWCGX47PZ0.html",
+    "date": "2026-09-18",
+    "claim_id": "clm_01M2V5HK1CRKW5C36QMDS762Y8",
+    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1CRKW5C36QMDS762Y8.html",
     "tier": "VERIFIED",
     "summary": "Machine-readable catalog now spans 35 tracks across 4 artists (That Boy Hi Hat, King Akeem, 183 Wildboi, Dre50), served at cwi-learn/catalog.json."
   },
   {
     "title": "CWI Brief Matcher shipped to production",
-    "date": "2026-09-16",
-    "claim_id": "clm_01M2N4M1NGV4CESAMM4D1Y0KVD",
-    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NGV4CESAMM4D1Y0KVD.html",
+    "date": "2026-09-18",
+    "claim_id": "clm_01M2V5HK1AMXD3VZD024BYM9WK",
+    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1AMXD3VZD024BYM9WK.html",
     "tier": "VERIFIED",
     "summary": "Paste a scene brief, get ranked catalog recommendations with published transparent scoring, clearance status, and copy-paste pitch blocks."
   },
   {
     "title": "CWI Sync Audition Room shipped to production",
-    "date": "2026-09-16",
-    "claim_id": "clm_01M2N4M1NB3D6V7JREVW7GNF8J",
-    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NB3D6V7JREVW7GNF8J.html",
+    "date": "2026-09-18",
+    "claim_id": "clm_01M2V5HK164J6R1NY5HAC309NJ",
+    "claim_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK164J6R1NY5HAC309NJ.html",
     "tier": "VERIFIED",
     "summary": "24-track sync catalog browser with real Spotify embeds, editorial mood filters, clearance status, shareable track deep links, and machine-readable tracks.json."
   }

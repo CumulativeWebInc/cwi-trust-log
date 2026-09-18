@@ -1,6 +1,6 @@
 {
   "protocol": "trust/1.0",
-  "claim_id": "clm_01M2N4M1NNNB1YJRM3CWDJSED1",
+  "claim_id": "clm_01M2V5HK1H92E89153QB44GXQ2",
   "subject": "placement:no-label-needed:zooted-zone",
   "statement": "\"Zooted Zone\" by That Boy Hi Hat observed at position 21 on Flow's \"No Label Needed\" Spotify playlist.",
   "evidence": {
@@ -17,10 +17,10 @@
   },
   "tier": "VERIFIED",
   "issuer": "Cumulative Web Inc",
-  "issued_at": "2026-09-16T12:56:13Z",
-  "prev_hash": "c4b3af9e45d661619c40993885543b23011d8b4fb8d3b1de927a396cf7862ba3",
+  "issued_at": "2026-09-18T21:07:47Z",
+  "prev_hash": "3d7c3a61e027a517003ebae4b898b813f1d867a626f6225c1a75e198d74a4ee0",
   "signature": {
     "alg": "Ed25519",
-    "sig": "jiVIAVb0oKA4BeL+yQG3xlmVCyD9E1lpj0COtv/rdJUuHpuyBhzygpBKXsFHQzNk/8zLFJUsphZsdcdi/45SBQ=="
+    "sig": "hw+k4KHXZwzbkKjy8+/N4oojgitlXhZZN65kg+Zp4vchsNb7xYzM7s+dAbQ2COmtCmjoh1LYLYoNtt5xL6yDBA=="
   }
 }

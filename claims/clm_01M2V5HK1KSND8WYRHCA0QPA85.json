@@ -1,0 +1,55 @@
+{
+  "protocol": "trust/1.0",
+  "claim_id": "clm_01M2V5HK1KSND8WYRHCA0QPA85",
+  "subject": "placement:playlist-holds-2026-09-18",
+  "statement": "Playlist placements re-verified holding 2026-09-18: \"Shaka Zulu\" #21, \"Zooted Zone\" #30, \"Doves & Diamonds\" #31; \"Zooted Zone\" #21/21 on \"No Label Needed\".",
+  "evidence": {
+    "method": "spotify-playlist-scan (embed __NEXT_DATA__ parse)",
+    "observed_at": "2026-09-18T21:05:00Z",
+    "source_url": "https://open.spotify.com/playlist/5zhnSpZqKRRaOvRMWuT0bL",
+    "raw_ref": {
+      "scanned_at": "2026-09-18T21:05:00Z",
+      "new_rap_hits": {
+        "playlist_id": "5zhnSpZqKRRaOvRMWuT0bL",
+        "playlist_title": "New Rap Hits",
+        "placements": [
+          {
+            "track": "Shaka Zulu",
+            "position": 21,
+            "track_id": "3pQEzg7xFqGIk0CK1Za1Kw",
+            "found": true
+          },
+          {
+            "track": "Zooted Zone",
+            "position": 30,
+            "track_id": "0emH8ktA8x4DkOFLsG5xkW",
+            "found": true
+          },
+          {
+            "track": "Doves & Diamonds",
+            "position": 31,
+            "track_id": "4NAyd7rvnuG3DrPFqXo4eQ",
+            "found": true
+          }
+        ]
+      },
+      "no_label_needed": {
+        "playlist_id": "79Qj8SYOl5zW4m4dMprrX9",
+        "playlist_title": "No Label Needed",
+        "track": "Zooted Zone",
+        "track_id": "0emH8ktA8x4DkOFLsG5xkW",
+        "position": 21,
+        "of": 21,
+        "found": true
+      }
+    }
+  },
+  "tier": "VERIFIED",
+  "issuer": "Cumulative Web Inc",
+  "issued_at": "2026-09-18T21:07:47Z",
+  "prev_hash": "12ebad3874c705ef1fffcbcc865bbb04c4caba6ce39a36cb1715fa8d2820c425",
+  "signature": {
+    "alg": "Ed25519",
+    "sig": "tZJ/QkZAhfsm1Mx5rEiCOslNfIQSVBP3KDAF8U4zG1YKjWD/1Lcrf/dMwOoU8EOd2GzRwNGk696uWKFDaWfSDA=="
+  }
+}

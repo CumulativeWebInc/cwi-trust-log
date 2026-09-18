@@ -1,0 +1,32 @@
+{
+  "protocol": "trust/1.0",
+  "claim_id": "clm_01M2V5HK1J29YTVWA6T0593P6X",
+  "subject": "app:cwi-memory-chain",
+  "statement": "CWI Memory Chain iOS PWA live: on-device anchor verification (schema UID, uid=keccak256(sig), EIP-712 signer recovery, refUID chain links) + tamper-drill button. MUSE_CWI and CWI_Data carry live L1 off-chain anchor records; the first live anchor->verify->tamper-drill loop passed 2026-09-18.",
+  "evidence": {
+    "method": "github-release-and-content-verification",
+    "observed_at": "2026-09-18T21:12:00+00:00",
+    "source_url": "https://cumulativewebinc.github.io/cwi-memory-chain/",
+    "raw_ref": {
+      "repo": "CumulativeWebInc/cwi-memory-chain",
+      "pwa_url": "https://cumulativewebinc.github.io/cwi-memory-chain/",
+      "pwa_status": 200,
+      "anchors_repo": "CumulativeWebInc/cwi-agent-memory",
+      "anchors_path": "anchors/offchain/",
+      "anchor_agents": [
+        "MUSE_CWI",
+        "CWI_Data"
+      ],
+      "anchors_verified": "records present in repo (anchors/offchain/MUSE_CWI.json, anchors/offchain/CWI_Data.json), checked 2026-09-18T21:10Z",
+      "loop_result": "first live L1 anchor->verify->tamper-drill loop passed on MUSE_CWI 2026-09-18 (AGENTS.md 2026-09-18, MEMORY.md 2026-09-18); kill gate 1 met"
+    }
+  },
+  "tier": "VERIFIED",
+  "issuer": "Cumulative Web Inc",
+  "issued_at": "2026-09-18T21:07:47Z",
+  "prev_hash": "8ff0c3eee3a53423bf69521de8b7d4ec9c5bd6002c20989d2df859c4155af37b",
+  "signature": {
+    "alg": "Ed25519",
+    "sig": "lMqvpdmrBU6z1XKm4HQAjJfEKWk2hxdphQc+K0KqbW1UCq5ZmbBMXlkLGIMAJeeqSDAL9n5D/2B8FIduJVrPAw=="
+  }
+}

@@ -1,6 +1,6 @@
 {
   "protocol": "trust/1.0",
-  "claim_id": "clm_01M2N4M1NKM8WC5CT9FCGPHAQB",
+  "claim_id": "clm_01M2V5HK1FE4PQ6VMGJ67976FA",
   "subject": "placement:new-rap-hits:zooted-zone",
   "statement": "\"Zooted Zone\" by That Boy Hi Hat observed at position 30 on the \"New Rap Hits\" Spotify playlist.",
   "evidence": {
@@ -17,10 +17,10 @@
   },
   "tier": "VERIFIED",
   "issuer": "Cumulative Web Inc",
-  "issued_at": "2026-09-16T12:56:13Z",
-  "prev_hash": "5f37ab71a944f90521b40c2482fb1231f1b1902c66af88dd45c184be175b367f",
+  "issued_at": "2026-09-18T21:07:47Z",
+  "prev_hash": "696232d62afc2e109ce4b5b612714e70ba9cf541952a03b58f91f2a56e889314",
   "signature": {
     "alg": "Ed25519",
-    "sig": "yG0w82ocf8w25ImorFRvcGLNV3Uo5/DtLuWsv7aWIYKx6Lyq5GAG46ut0nSCejclZYBpoNudc6K15fsZuPqHBQ=="
+    "sig": "6gmomoYk6KspXJm54bV/fCEmLqRxYbme42ppf/4BqWfRdsHHCNK0GtRyj3lXwi8IilTNnN2JmIbUvJgIlulCCA=="
   }
 }

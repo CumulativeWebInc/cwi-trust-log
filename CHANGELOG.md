@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## 2026-09-18 — chain extended to 11 VERIFIED
+
+Friday scorecard run (Results dept): confirmed wins that had no envelopes now do.
+
+- New envelopes: `app:cwi-kingcode-lens` (KingCode Lens v1.0.0 — tag published 2026-09-18T12:38:01Z, live demo HTTP 200, 117/117 tests), `app:cwi-memory-chain` (Memory Chain iOS PWA live, MUSE_CWI + CWI_Data L1 anchors present, first anchor→verify→tamper-drill loop passed), `placement:playlist-holds-2026-09-18` (fresh 2026-09-18 scan: Shaka Zulu #21 / Zooted Zone #30 / Doves & Diamonds #31 on New Rap Hits; Zooted Zone #21/21 on No Label Needed — all holding).
+- Previous 8 envelopes re-issued with fresh ULIDs and new chain hashes (same statements); old claim IDs superseded and removed from the repo.
+- Tip hash: `e6ed72e06b6ce45bd025da3a3c09a9be5331046c8a85e7edbc3ab7370fb61159`
+- Tooling fix: `generate.js` index.html section assigned to a `const` — never ran; fixed (`let idxBody`), index.html now regenerates with every batch.
+
 ## v1.0 — 2026-09-16
 
 Initial release of the CWI Trust Fabric protocol (`trust/1.0`).

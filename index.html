@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title data-i18n="page.title">CWI Trust Fabric — signed claim log — CWI Trust Fabric</title><style>
+<title>CWI Trust Fabric — signed claim log — CWI Trust Fabric</title><style>
 :root{--bg:#0b0b0e;--card:#141419;--gold:#e8b13c;--txt:#ececf1;--mut:#9a9aad;--line:#26262e}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.6 -apple-system,system-ui,Segoe UI,Roboto,sans-serif;padding:20px 14px 60px;max-width:760px;margin-left:auto;margin-right:auto}
 header.top{display:flex;align-items:center;gap:12px;margin:8px 0 20px}
@@ -20,37 +20,43 @@ footer{margin-top:40px;color:var(--mut);font-size:12px;text-align:center}
 </style></head>
 <body>
 <header class="top"><div class="badge">◈</div><div><h1>CWI Trust Fabric</h1>
-<p class="sub" data-i18n="header.sub">Cumulative Web Inc · signed claims, hash-chained · trust/1.0</p></div></header>
-<p class="dim" style="font-size:15px"><span data-i18n="intro.1">A public transparency log. Every material claim Cumulative Web Inc makes is published here as a </span><b data-i18n="intro.term">signed claim envelope</b><span data-i18n="intro.2"> — Ed25519 signature, SHA-256 hash chain. Verify any claim yourself with zero trust in us.</span></p>
+<p class="sub">Cumulative Web Inc · signed claims, hash-chained · trust/1.0</p></div></header>
+<p class="dim" style="font-size:15px">A public transparency log. Every material claim Cumulative Web Inc makes is published here as a <b>signed claim envelope</b> — Ed25519 signature, SHA-256 hash chain. Verify any claim yourself with zero trust in us.</p>
 <div class="card">
-<p style="margin:4px 0"><b data-i18n="chain.tip">Live chain tip:</b></p>
-<p class="mono hash" style="margin:4px 0">f9bd455b78b37308420e7b337d72f9e954397f6e39c95c7ac3016fa19f56479a</p>
-<p class="dim" style="margin:6px 0" data-i18n="chain.info">8 claims · protocol trust/1.0 · genesis GENESIS</p>
+<p style="margin:4px 0"><b>Live chain tip:</b></p>
+<p class="mono hash" style="margin:4px 0">e6ed72e06b6ce45bd025da3a3c09a9be5331046c8a85e7edbc3ab7370fb61159</p>
+<p class="dim" style="margin:6px 0">11 claims · protocol trust/1.0 · genesis GENESIS</p>
 </div>
-<h2 data-i18n="verify.title">Verify in 3 steps</h2>
+<h2>Verify in 3 steps</h2>
 <div class="card"><ol class="steps">
-<li><span data-i18n="verify.step1a">Get</span> <a href="https://cumulativewebinc.github.io/cwi-trust-log/verify.js" class="mono">verify.js</a> <span data-i18n="verify.step1b">(zero dependencies, Node 18+).</span></li>
-<li><span data-i18n="verify.step2a">Run</span> <code class="mono">node verify.js https://cumulativewebinc.github.io/cwi-trust-log/claims/&lt;claim_id&gt;.json</code><span data-i18n="verify.step2b"> — it fetches the public key and chain index itself.</span></li>
-<li><span data-i18n="verify.step3a">Look for</span> <b data-i18n="cli.pass">RESULT: PASS</b><span data-i18n="verify.step3b">: the Ed25519 signature is real, the hash recomputes, and the chain links unbroken to GENESIS.</span></li>
+<li>Get <a href="https://cumulativewebinc.github.io/cwi-trust-log/verify.js" class="mono">verify.js</a> (zero dependencies, Node 18+).</li>
+<li>Run <code class="mono">node verify.js https://cumulativewebinc.github.io/cwi-trust-log/claims/&lt;claim_id&gt;.json</code> — it fetches the public key and chain index itself.</li>
+<li>Look for <b>RESULT: PASS</b>: the Ed25519 signature is real, the hash recomputes, and the chain links unbroken to GENESIS.</li>
 </ol></div>
-<div class="nav" style="font-size:15px"><a href="https://cumulativewebinc.github.io/cwi-trust-log/achievements.html" data-i18n="nav.achievements">🏆 Achievements &amp; results</a><a href="https://cumulativewebinc.github.io/cwi-trust-log/TRUST-PROTOCOL.md" data-i18n="nav.protocol">📜 Protocol</a><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/index.json" data-i18n="nav.chain">⛓ Chain index</a></div>
-<h2 data-i18n="list.title">Claims in the chain</h2>
-<div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NB3D6V7JREVW7GNF8J.html" style="font-weight:700">CWI Sync Audition Room shipped to production</a><span class="tier">VERIFIED</span>
-<p class="dim" style="margin:6px 0"><span class="mono">clm_01M2N4M1NB3D6V7JREVW7GNF8J</span> · hash <span class="mono hash">9a5a7036c8db6cae…</span></p></div>
-<div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NGV4CESAMM4D1Y0KVD.html" style="font-weight:700">CWI Brief Matcher shipped to production</a><span class="tier">VERIFIED</span>
-<p class="dim" style="margin:6px 0"><span class="mono">clm_01M2N4M1NGV4CESAMM4D1Y0KVD</span> · hash <span class="mono hash">76fb36c826dd32b9…</span></p></div>
-<div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NH3BJ6BWJWCGX47PZ0.html" style="font-weight:700">CWI catalog expanded: 35 tracks, 4 artists</a><span class="tier">VERIFIED</span>
-<p class="dim" style="margin:6px 0"><span class="mono">clm_01M2N4M1NH3BJ6BWJWCGX47PZ0</span> · hash <span class="mono hash">4b0fc24742f2f714…</span></p></div>
-<div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NJS084QKAA9N4AD6EQ.html" style="font-weight:700">“Shaka Zulu” at #21 on New Rap Hits</a><span class="tier">VERIFIED</span>
-<p class="dim" style="margin:6px 0"><span class="mono">clm_01M2N4M1NJS084QKAA9N4AD6EQ</span> · hash <span class="mono hash">5f37ab71a944f905…</span></p></div>
-<div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NKM8WC5CT9FCGPHAQB.html" style="font-weight:700">“Zooted Zone” at #30 on New Rap Hits</a><span class="tier">VERIFIED</span>
-<p class="dim" style="margin:6px 0"><span class="mono">clm_01M2N4M1NKM8WC5CT9FCGPHAQB</span> · hash <span class="mono hash">8e6f5d0b5e55514f…</span></p></div>
-<div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NM1APFBWFWJ4CE6ZVG.html" style="font-weight:700">“Doves &amp; Diamonds” at #31 on New Rap Hits</a><span class="tier">VERIFIED</span>
-<p class="dim" style="margin:6px 0"><span class="mono">clm_01M2N4M1NM1APFBWFWJ4CE6ZVG</span> · hash <span class="mono hash">c4b3af9e45d66161…</span></p></div>
-<div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NNNB1YJRM3CWDJSED1.html" style="font-weight:700">“Zooted Zone” at #21 on No Label Needed</a><span class="tier">VERIFIED</span>
-<p class="dim" style="margin:6px 0"><span class="mono">clm_01M2N4M1NNNB1YJRM3CWDJSED1</span> · hash <span class="mono hash">2b7e78ac96baaa4b…</span></p></div>
-<div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NPH8F2BNVRYY14PCMS.html" style="font-weight:700">CWI catalog dataset live on Hugging Face</a><span class="tier">VERIFIED</span>
-<p class="dim" style="margin:6px 0"><span class="mono">clm_01M2N4M1NPH8F2BNVRYY14PCMS</span> · hash <span class="mono hash">f9bd455b78b37308…</span></p></div>
+<div class="nav" style="font-size:15px"><a href="https://cumulativewebinc.github.io/cwi-trust-log/achievements.html">🏆 Achievements &amp; results</a><a href="https://cumulativewebinc.github.io/cwi-trust-log/TRUST-PROTOCOL.md">📜 Protocol</a><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/index.json">⛓ Chain index</a></div>
+<h2>Claims in the chain</h2>
+<div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK164J6R1NY5HAC309NJ.html" style="font-weight:700">CWI Sync Audition Room shipped to production</a><span class="tier">VERIFIED</span>
+<p class="dim" style="margin:6px 0"><span class="mono">clm_01M2V5HK164J6R1NY5HAC309NJ</span> · hash <span class="mono hash">b87682b68118103d…</span></p></div>
+<div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1AMXD3VZD024BYM9WK.html" style="font-weight:700">CWI Brief Matcher shipped to production</a><span class="tier">VERIFIED</span>
+<p class="dim" style="margin:6px 0"><span class="mono">clm_01M2V5HK1AMXD3VZD024BYM9WK</span> · hash <span class="mono hash">181676b42e7ae46d…</span></p></div>
+<div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1CRKW5C36QMDS762Y8.html" style="font-weight:700">CWI catalog expanded: 35 tracks, 4 artists</a><span class="tier">VERIFIED</span>
+<p class="dim" style="margin:6px 0"><span class="mono">clm_01M2V5HK1CRKW5C36QMDS762Y8</span> · hash <span class="mono hash">b574c914338b7146…</span></p></div>
+<div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1EPKC4ANEGTF2FYHNC.html" style="font-weight:700">“Shaka Zulu” at #21 on New Rap Hits</a><span class="tier">VERIFIED</span>
+<p class="dim" style="margin:6px 0"><span class="mono">clm_01M2V5HK1EPKC4ANEGTF2FYHNC</span> · hash <span class="mono hash">696232d62afc2e10…</span></p></div>
+<div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1FE4PQ6VMGJ67976FA.html" style="font-weight:700">“Zooted Zone” at #30 on New Rap Hits</a><span class="tier">VERIFIED</span>
+<p class="dim" style="margin:6px 0"><span class="mono">clm_01M2V5HK1FE4PQ6VMGJ67976FA</span> · hash <span class="mono hash">86235b8239f2b141…</span></p></div>
+<div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1G04YH9GHCR0H0915Y.html" style="font-weight:700">“Doves &amp; Diamonds” at #31 on New Rap Hits</a><span class="tier">VERIFIED</span>
+<p class="dim" style="margin:6px 0"><span class="mono">clm_01M2V5HK1G04YH9GHCR0H0915Y</span> · hash <span class="mono hash">3d7c3a61e027a517…</span></p></div>
+<div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1H92E89153QB44GXQ2.html" style="font-weight:700">“Zooted Zone” at #21 on No Label Needed</a><span class="tier">VERIFIED</span>
+<p class="dim" style="margin:6px 0"><span class="mono">clm_01M2V5HK1H92E89153QB44GXQ2</span> · hash <span class="mono hash">85baf4f59abe3f43…</span></p></div>
+<div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1H7810RPMYXA47E0J5.html" style="font-weight:700">KingCode Lens v1.0.0 shipped to production</a><span class="tier">VERIFIED</span>
+<p class="dim" style="margin:6px 0"><span class="mono">clm_01M2V5HK1H7810RPMYXA47E0J5</span> · hash <span class="mono hash">8ff0c3eee3a53423…</span></p></div>
+<div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1J29YTVWA6T0593P6X.html" style="font-weight:700">CWI Memory Chain iOS PWA live + first anchor→verify→tamper loop</a><span class="tier">VERIFIED</span>
+<p class="dim" style="margin:6px 0"><span class="mono">clm_01M2V5HK1J29YTVWA6T0593P6X</span> · hash <span class="mono hash">12ebad3874c705ef…</span></p></div>
+<div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1KSND8WYRHCA0QPA85.html" style="font-weight:700">Playlist placements re-verified holding (2026-09-18)</a><span class="tier">VERIFIED</span>
+<p class="dim" style="margin:6px 0"><span class="mono">clm_01M2V5HK1KSND8WYRHCA0QPA85</span> · hash <span class="mono hash">0aef59903ef19c72…</span></p></div>
+<div class="card"><a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1M4A7S9FD2VD385T88.html" style="font-weight:700">CWI catalog dataset live on Hugging Face</a><span class="tier">VERIFIED</span>
+<p class="dim" style="margin:6px 0"><span class="mono">clm_01M2V5HK1M4A7S9FD2VD385T88</span> · hash <span class="mono hash">e6ed72e06b6ce45b…</span></p></div>
 <section id="verify-yourself" style="border:1px solid #2a2f3a;border-radius:12px;padding:20px 22px;margin:28px auto;max-width:860px;background:rgba(255,255,255,.02)">
 <h2 style="margin:0 0 8px">Verify it yourself</h2>
 <p style="margin:0 0 12px;opacity:.85">Don't take our word for it — re-run the check from your own machine or your own agent runtime.</p>
@@ -59,8 +65,5 @@ footer{margin-top:40px;color:var(--mut);font-size:12px;text-align:center}
 <li><strong>From your agent runtime:</strong> <a href="https://github.com/CumulativeWebInc/cwi-mcp-server">cwi-mcp-server</a> — CWI's read-only MCP server. Call <code>needledrop_verify</code>: verify the hash chain of any NEEDLE DROP placement ledger with the same zero-trust mechanics as this log's chain. Zero-trust guide: <a href="https://github.com/CumulativeWebInc/cwi-mcp-server/blob/main/VERIFY.md">VERIFY.md</a>.</li>
 </ul>
 </section>
-
-<footer><span data-i18n="foot.tag">CWI Trust Fabric · every claim signed ·</span> <a href="https://cumulativewebinc.github.io/cwi-trust-log/TRUST-PROTOCOL.md" data-i18n="foot.protocol">protocol</a> · <a href="https://cumulativewebinc.github.io/cwi-trust-log/verify.js">verify.js</a></footer>
-<script src="https://cumulativewebinc.github.io/cwi-i18n/i18n.js" data-app="trust-log"></script>
+<footer>CWI Trust Fabric · every claim signed · <a href="https://cumulativewebinc.github.io/cwi-trust-log/TRUST-PROTOCOL.md">protocol</a> · <a href="https://cumulativewebinc.github.io/cwi-trust-log/verify.js">verify.js</a></footer>
 </body></html>
-

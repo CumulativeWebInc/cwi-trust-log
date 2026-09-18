@@ -1,74 +1,98 @@
 {
   "protocol": "trust/1.0",
   "issuer": "Cumulative Web Inc",
-  "generated_at": "2026-09-16T12:56:13Z",
+  "generated_at": "2026-09-18T21:07:47Z",
   "genesis_prev_hash": "GENESIS",
-  "tip_hash": "f9bd455b78b37308420e7b337d72f9e954397f6e39c95c7ac3016fa19f56479a",
-  "count": 8,
+  "tip_hash": "e6ed72e06b6ce45bd025da3a3c09a9be5331046c8a85e7edbc3ab7370fb61159",
+  "count": 11,
   "claims": [
     {
-      "claim_id": "clm_01M2N4M1NB3D6V7JREVW7GNF8J",
+      "claim_id": "clm_01M2V5HK164J6R1NY5HAC309NJ",
       "subject": "app:cwi-sync-audition",
       "tier": "VERIFIED",
-      "issued_at": "2026-09-16T12:56:13Z",
-      "claim_hash": "9a5a7036c8db6cae0763b198729598dc09e1acb82f1f7fe61d976fa8c636e47b",
+      "issued_at": "2026-09-18T21:07:47Z",
+      "claim_hash": "b87682b68118103d36414ae52c84f94461dcac4423a06b6a3edcb16dd938d9e1",
       "prev_hash": "GENESIS"
     },
     {
-      "claim_id": "clm_01M2N4M1NGV4CESAMM4D1Y0KVD",
+      "claim_id": "clm_01M2V5HK1AMXD3VZD024BYM9WK",
       "subject": "app:cwi-brief-matcher",
       "tier": "VERIFIED",
-      "issued_at": "2026-09-16T12:56:13Z",
-      "claim_hash": "76fb36c826dd32b925b58e1487c9f9ed226999c83bd5109444d02345947111e2",
-      "prev_hash": "9a5a7036c8db6cae0763b198729598dc09e1acb82f1f7fe61d976fa8c636e47b"
+      "issued_at": "2026-09-18T21:07:47Z",
+      "claim_hash": "181676b42e7ae46d38eca8b7ae05c4faa993c8eb6a3e95be56c1db1020b816c7",
+      "prev_hash": "b87682b68118103d36414ae52c84f94461dcac4423a06b6a3edcb16dd938d9e1"
     },
     {
-      "claim_id": "clm_01M2N4M1NH3BJ6BWJWCGX47PZ0",
+      "claim_id": "clm_01M2V5HK1CRKW5C36QMDS762Y8",
       "subject": "catalog:cwi-multi-artist-expansion",
       "tier": "VERIFIED",
-      "issued_at": "2026-09-16T12:56:13Z",
-      "claim_hash": "4b0fc24742f2f7148335a633a7e0ceabd64d384ce02a0320c3d9c01422113d3b",
-      "prev_hash": "76fb36c826dd32b925b58e1487c9f9ed226999c83bd5109444d02345947111e2"
+      "issued_at": "2026-09-18T21:07:47Z",
+      "claim_hash": "b574c914338b71469075adc446addf4f3aec169ab071cdc983aafd6ac5911015",
+      "prev_hash": "181676b42e7ae46d38eca8b7ae05c4faa993c8eb6a3e95be56c1db1020b816c7"
     },
     {
-      "claim_id": "clm_01M2N4M1NJS084QKAA9N4AD6EQ",
+      "claim_id": "clm_01M2V5HK1EPKC4ANEGTF2FYHNC",
       "subject": "placement:new-rap-hits:shaka-zulu",
       "tier": "VERIFIED",
-      "issued_at": "2026-09-16T12:56:13Z",
-      "claim_hash": "5f37ab71a944f90521b40c2482fb1231f1b1902c66af88dd45c184be175b367f",
-      "prev_hash": "4b0fc24742f2f7148335a633a7e0ceabd64d384ce02a0320c3d9c01422113d3b"
+      "issued_at": "2026-09-18T21:07:47Z",
+      "claim_hash": "696232d62afc2e109ce4b5b612714e70ba9cf541952a03b58f91f2a56e889314",
+      "prev_hash": "b574c914338b71469075adc446addf4f3aec169ab071cdc983aafd6ac5911015"
     },
     {
-      "claim_id": "clm_01M2N4M1NKM8WC5CT9FCGPHAQB",
+      "claim_id": "clm_01M2V5HK1FE4PQ6VMGJ67976FA",
       "subject": "placement:new-rap-hits:zooted-zone",
       "tier": "VERIFIED",
-      "issued_at": "2026-09-16T12:56:13Z",
-      "claim_hash": "8e6f5d0b5e55514fc8e9d4f8b3a787885a07aa71857a972a5d10003acdb317ad",
-      "prev_hash": "5f37ab71a944f90521b40c2482fb1231f1b1902c66af88dd45c184be175b367f"
+      "issued_at": "2026-09-18T21:07:47Z",
+      "claim_hash": "86235b8239f2b141789415fef43a4cd064196393b2d248440e0d72c8f22c5d22",
+      "prev_hash": "696232d62afc2e109ce4b5b612714e70ba9cf541952a03b58f91f2a56e889314"
     },
     {
-      "claim_id": "clm_01M2N4M1NM1APFBWFWJ4CE6ZVG",
+      "claim_id": "clm_01M2V5HK1G04YH9GHCR0H0915Y",
       "subject": "placement:new-rap-hits:doves-diamonds",
       "tier": "VERIFIED",
-      "issued_at": "2026-09-16T12:56:13Z",
-      "claim_hash": "c4b3af9e45d661619c40993885543b23011d8b4fb8d3b1de927a396cf7862ba3",
-      "prev_hash": "8e6f5d0b5e55514fc8e9d4f8b3a787885a07aa71857a972a5d10003acdb317ad"
+      "issued_at": "2026-09-18T21:07:47Z",
+      "claim_hash": "3d7c3a61e027a517003ebae4b898b813f1d867a626f6225c1a75e198d74a4ee0",
+      "prev_hash": "86235b8239f2b141789415fef43a4cd064196393b2d248440e0d72c8f22c5d22"
     },
     {
-      "claim_id": "clm_01M2N4M1NNNB1YJRM3CWDJSED1",
+      "claim_id": "clm_01M2V5HK1H92E89153QB44GXQ2",
       "subject": "placement:no-label-needed:zooted-zone",
       "tier": "VERIFIED",
-      "issued_at": "2026-09-16T12:56:13Z",
-      "claim_hash": "2b7e78ac96baaa4bcbf5a350f69cee4b41370e514753310b19c50e597290a57e",
-      "prev_hash": "c4b3af9e45d661619c40993885543b23011d8b4fb8d3b1de927a396cf7862ba3"
+      "issued_at": "2026-09-18T21:07:47Z",
+      "claim_hash": "85baf4f59abe3f4340b1ad610ef566875cf678e613b5337dce99509cf0b2488f",
+      "prev_hash": "3d7c3a61e027a517003ebae4b898b813f1d867a626f6225c1a75e198d74a4ee0"
     },
     {
-      "claim_id": "clm_01M2N4M1NPH8F2BNVRYY14PCMS",
+      "claim_id": "clm_01M2V5HK1H7810RPMYXA47E0J5",
+      "subject": "app:cwi-kingcode-lens",
+      "tier": "VERIFIED",
+      "issued_at": "2026-09-18T21:07:47Z",
+      "claim_hash": "8ff0c3eee3a53423bf69521de8b7d4ec9c5bd6002c20989d2df859c4155af37b",
+      "prev_hash": "85baf4f59abe3f4340b1ad610ef566875cf678e613b5337dce99509cf0b2488f"
+    },
+    {
+      "claim_id": "clm_01M2V5HK1J29YTVWA6T0593P6X",
+      "subject": "app:cwi-memory-chain",
+      "tier": "VERIFIED",
+      "issued_at": "2026-09-18T21:07:47Z",
+      "claim_hash": "12ebad3874c705ef1fffcbcc865bbb04c4caba6ce39a36cb1715fa8d2820c425",
+      "prev_hash": "8ff0c3eee3a53423bf69521de8b7d4ec9c5bd6002c20989d2df859c4155af37b"
+    },
+    {
+      "claim_id": "clm_01M2V5HK1KSND8WYRHCA0QPA85",
+      "subject": "placement:playlist-holds-2026-09-18",
+      "tier": "VERIFIED",
+      "issued_at": "2026-09-18T21:07:47Z",
+      "claim_hash": "0aef59903ef19c72a1728410cd3c31818409e2b9ed46d7d7af2705c234c31b7c",
+      "prev_hash": "12ebad3874c705ef1fffcbcc865bbb04c4caba6ce39a36cb1715fa8d2820c425"
+    },
+    {
+      "claim_id": "clm_01M2V5HK1M4A7S9FD2VD385T88",
       "subject": "dataset:cwi-catalog-hf",
       "tier": "VERIFIED",
-      "issued_at": "2026-09-16T12:56:13Z",
-      "claim_hash": "f9bd455b78b37308420e7b337d72f9e954397f6e39c95c7ac3016fa19f56479a",
-      "prev_hash": "2b7e78ac96baaa4bcbf5a350f69cee4b41370e514753310b19c50e597290a57e"
+      "issued_at": "2026-09-18T21:07:47Z",
+      "claim_hash": "e6ed72e06b6ce45bd025da3a3c09a9be5331046c8a85e7edbc3ab7370fb61159",
+      "prev_hash": "0aef59903ef19c72a1728410cd3c31818409e2b9ed46d7d7af2705c234c31b7c"
     }
   ]
 }

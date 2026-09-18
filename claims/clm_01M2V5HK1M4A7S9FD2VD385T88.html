@@ -1,0 +1,56 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CWI catalog dataset live on Hugging Face — CWI Trust Fabric</title><style>
+:root{--bg:#0b0b0e;--card:#141419;--gold:#e8b13c;--txt:#ececf1;--mut:#9a9aad;--line:#26262e}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.6 -apple-system,system-ui,Segoe UI,Roboto,sans-serif;padding:20px 14px 60px;max-width:760px;margin-left:auto;margin-right:auto}
+header.top{display:flex;align-items:center;gap:12px;margin:8px 0 20px}
+.badge{width:44px;height:44px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#f5d67b,#b07f1f);display:flex;align-items:center;justify-content:center;font-weight:800;color:#111;font-size:20px;flex:none}
+h1{font-size:22px;margin:0}h2{font-size:18px;margin:26px 0 10px;color:var(--gold)}
+.sub{color:var(--mut);font-size:13px;margin:2px 0 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin:14px 0}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+.tier{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.06em;background:#123b22;color:#6fe08f;border:1px solid #1f6b3a;border-radius:999px;padding:2px 10px;margin-left:8px;vertical-align:middle}
+.mono{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px;word-break:break-all}
+.dim{color:var(--mut);font-size:13px}
+pre{background:#0e0e12;border:1px solid var(--line);border-radius:10px;padding:12px;overflow:auto;font-size:12.5px;line-height:1.5}
+ol.steps{padding-left:20px}ol.steps li{margin:8px 0}
+.hash{color:#8fd0ff}
+.nav{display:flex;gap:14px;margin:18px 0;font-size:14px}
+footer{margin-top:40px;color:var(--mut);font-size:12px;text-align:center}
+</style></head>
+<body>
+<header class="top"><div class="badge">◈</div><div><h1>CWI Trust Fabric</h1>
+<p class="sub">Cumulative Web Inc · signed claims, hash-chained · trust/1.0</p></div></header>
+<div class="nav"><a href="https://cumulativewebinc.github.io/cwi-trust-log/">← trust log</a><a href="https://cumulativewebinc.github.io/cwi-trust-log/achievements.html">achievements</a></div>
+<h2>CWI catalog dataset live on Hugging Face<span class="tier">VERIFIED</span></h2>
+<div class="card"><p style="margin:0">Hugging Face dataset BlackLansky/cwi-catalog carries the 35-track multi-artist catalog as tracks.jsonl (CC-BY-4.0, built for RAG).</p></div>
+<h2>Evidence</h2>
+<div class="card">
+<p><b>Method:</b> <span class="mono">huggingface-api-verification</span></p>
+<p><b>Observed at:</b> <span class="mono">2026-09-18T21:12:00+00:00</span></p>
+<p><b>Source:</b> <a href="https://huggingface.co/datasets/BlackLansky/cwi-catalog" class="mono">https://huggingface.co/datasets/BlackLansky/cwi-catalog</a></p>
+<p><b>Raw record:</b></p>
+<pre>{
+  &quot;repo&quot;: &quot;BlackLansky/cwi-catalog&quot;,
+  &quot;commit_sha&quot;: &quot;1e85b626d11c90f6047d822217c79b9fbd0e7fde&quot;,
+  &quot;tracks_jsonl_lines&quot;: 35
+}</pre>
+</div>
+<h2>Signature</h2>
+<div class="card">
+<p><b>Issuer:</b> Cumulative Web Inc · <b>Issued:</b> <span class="mono">2026-09-18T21:07:47Z</span></p>
+<p><b>Algorithm:</b> <span class="mono">Ed25519</span></p>
+<p><b>Signature:</b><br><span class="mono hash">ctVhyuwcw5JHxunuG7ddvzQYSUj7i3cA+NehKomFvHZTNCe5X8o7StTUsFYkCGSsXZih5xn+c3oa5L0qnS2qDQ==</span></p>
+<p><b>Claim hash:</b><br><span class="mono hash">e6ed72e06b6ce45bd025da3a3c09a9be5331046c8a85e7edbc3ab7370fb61159</span></p>
+<p><b>Previous:</b> <span class="mono hash">0aef59903ef19c72a1728410cd3c31818409e2b9ed46d7d7af2705c234c31b7c</span></p>
+<p class="dim">Envelope JSON: <a href="https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1M4A7S9FD2VD385T88.json" class="mono">clm_01M2V5HK1M4A7S9FD2VD385T88.json</a></p>
+</div>
+<h2>Verify this signature yourself</h2>
+<div class="card"><ol class="steps">
+<li>Download the zero-dependency verifier: <a href="https://cumulativewebinc.github.io/cwi-trust-log/verify.js" class="mono">verify.js</a></li>
+<li>Run it against this claim — it fetches the public key and chain index on its own:<br>
+<code class="mono">node verify.js https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2V5HK1M4A7S9FD2VD385T88.json</code></li>
+<li>Look for <b>RESULT: PASS</b> — signature valid, hash matches, chain links to GENESIS. You never had to trust us.</li>
+</ol></div>
+<footer>CWI Trust Fabric · every claim signed · <a href="https://cumulativewebinc.github.io/cwi-trust-log/TRUST-PROTOCOL.md">protocol</a> · <a href="https://cumulativewebinc.github.io/cwi-trust-log/verify.js">verify.js</a></footer>
+</body></html>

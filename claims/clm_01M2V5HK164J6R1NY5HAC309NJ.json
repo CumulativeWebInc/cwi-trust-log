@@ -1,11 +1,11 @@
 {
   "protocol": "trust/1.0",
-  "claim_id": "clm_01M2N4M1NB3D6V7JREVW7GNF8J",
+  "claim_id": "clm_01M2V5HK164J6R1NY5HAC309NJ",
   "subject": "app:cwi-sync-audition",
   "statement": "CWI Sync Audition Room shipped to production: 24-track sync catalog browser with real Spotify embeds, editorial mood filters, clearance status, shareable track deep links, and machine-readable tracks.json.",
   "evidence": {
     "method": "github-release-verification",
-    "observed_at": "2026-09-16T12:56:30.000000+00:00",
+    "observed_at": "2026-09-18T21:12:00+00:00",
     "source_url": "https://cumulativewebinc.github.io/cwi-sync-audition/",
     "raw_ref": {
       "repo": "CumulativeWebInc/cwi-sync-audition",
@@ -18,10 +18,10 @@
   },
   "tier": "VERIFIED",
   "issuer": "Cumulative Web Inc",
-  "issued_at": "2026-09-16T12:56:13Z",
+  "issued_at": "2026-09-18T21:07:47Z",
   "prev_hash": "GENESIS",
   "signature": {
     "alg": "Ed25519",
-    "sig": "TeWw9BnvdstfJmafTArgQ1aPAR4WuHcg9lalG6FaG46zptqpuYDn+8tE03ye2Y49BPNC995HOx8ojH8DtW6HCQ=="
+    "sig": "HFi5TP3JkdYygy0HrOCm1Cxt7dpxJ2+mKXfayXXZCQrJSUSO7IrOsiyjOnrSZJLb96dtJz2y4bz/4zqV07oZAA=="
   }
 }
