@@ -1,1 +1,40 @@
-{"capabilities":["Ed25519-signed claim envelopes (trust/1.0)","SHA-256 hash chain from GENESIS, publicly walkable","zero-trust Node verifier (verify.js, zero dependencies)","machine-readable achievements feed (achievements.json)","per-claim human-readable proof pages (claims/*.html)"],"constraints":["private signing key is never in this repo — verify only, no signing","history is append-only; envelopes are never rewritten","VERIFIED tier requires evidence observed at issuance — no receipt, no VERIFIED"],"description":"A cryptographic transparency log for Cumulative Web Inc. Every public claim the company makes is published here as a signed, hash-chained envelope — verifiable by anyone with zero trust in CWI.","entrypoints":{"achievements":"https://cumulativewebinc.github.io/cwi-trust-log/achievements.html","chain_index":"https://cumulativewebinc.github.io/cwi-trust-log/claims/index.json","live_log":"https://cumulativewebinc.github.io/cwi-trust-log/","llms_txt":"https://cumulativewebinc.github.io/cwi-trust-log/llms.txt","protocol":"https://cumulativewebinc.github.io/cwi-trust-log/TRUST-PROTOCOL.md","public_key":"https://cumulativewebinc.github.io/cwi-trust-log/keys/ed25519.pub","repository":"https://github.com/CumulativeWebInc/cwi-trust-log","verifier":"https://cumulativewebinc.github.io/cwi-trust-log/verify.js"},"id":"https://github.com/CumulativeWebInc/cwi-trust-log","license":{"name":"CWI Trust Fabric — public data, verify freely","type":"public-data"},"name":"CWI Trust Fabric","tests":"24/24 green (node test/test.js)","updated":"2026-09-23","vendor":{"contact":"hp@cumulativeweb.com","name":"Cumulative Web Inc","url":"https://cumulativeweb.com"},"version":"1.1.0"}
+{
+  "capabilities": [
+    "Ed25519-signed claim envelopes (trust/1.0)",
+    "SHA-256 hash chain from GENESIS, publicly walkable",
+    "zero-trust Node verifier (verify.js, zero dependencies)",
+    "machine-readable achievements feed (achievements.json)",
+    "per-claim human-readable proof pages (claims/*.html)"
+  ],
+  "constraints": [
+    "private signing key is never in this repo — verify only, no signing",
+    "history is append-only; envelopes are never rewritten",
+    "VERIFIED tier requires evidence observed at issuance — no receipt, no VERIFIED"
+  ],
+  "description": "A cryptographic transparency log for Cumulative Web Inc. Every public claim the company makes is published here as a signed, hash-chained envelope — verifiable by anyone with zero trust in CWI.",
+  "entrypoints": {
+    "achievements": "https://cumulativewebinc.github.io/cwi-trust-log/achievements.html",
+    "chain_index": "https://cumulativewebinc.github.io/cwi-trust-log/claims/index.json",
+    "live_log": "https://cumulativewebinc.github.io/cwi-trust-log/",
+    "llms_txt": "https://cumulativewebinc.github.io/cwi-trust-log/llms.txt",
+    "protocol": "https://cumulativewebinc.github.io/cwi-trust-log/TRUST-PROTOCOL.md",
+    "public_key": "https://cumulativewebinc.github.io/cwi-trust-log/keys/ed25519.pub",
+    "repository": "https://github.com/CumulativeWebInc/cwi-trust-log",
+    "verifier": "https://cumulativewebinc.github.io/cwi-trust-log/verify.js"
+  },
+  "id": "https://github.com/CumulativeWebInc/cwi-trust-log",
+  "license": {
+    "name": "CWI Trust Fabric — public data, verify freely",
+    "type": "public-data"
+  },
+  "name": "CWI Trust Fabric",
+  "tests": "24/24 green (node test/test.js)",
+  "updated": "2026-09-23",
+  "vendor": {
+    "contact": "hp@cumulativeweb.com",
+    "name": "Cumulative Web Inc",
+    "url": "https://cumulativeweb.com"
+  },
+  "version": "1.1.0",
+  "url": "https://cumulativewebinc.github.io/cwi-trust-log/"
+}
