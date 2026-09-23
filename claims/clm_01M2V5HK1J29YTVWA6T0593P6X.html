@@ -4,7 +4,7 @@
 :root{--bg:#0b0b0e;--card:#141419;--gold:#e8b13c;--txt:#ececf1;--mut:#9a9aad;--line:#26262e}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.6 -apple-system,system-ui,Segoe UI,Roboto,sans-serif;padding:20px 14px 60px;max-width:760px;margin-left:auto;margin-right:auto}
 header.top{display:flex;align-items:center;gap:12px;margin:8px 0 20px}
-.badge{width:44px;height:44px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#f5d67b,#b07f1f);display:flex;align-items:center;justify-content:center;font-weight:800;color:#111;font-size:20px;flex:none}
+.badge{width:44px;height:44px;border-radius:50%;object-fit:cover;flex:none;border:1px solid #e8b13c}
 h1{font-size:22px;margin:0}h2{font-size:18px;margin:26px 0 10px;color:var(--gold)}
 .sub{color:var(--mut);font-size:13px;margin:2px 0 0}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin:14px 0}
@@ -19,7 +19,7 @@ ol.steps{padding-left:20px}ol.steps li{margin:8px 0}
 footer{margin-top:40px;color:var(--mut);font-size:12px;text-align:center}
 </style></head>
 <body>
-<header class="top"><div class="badge">◈</div><div><h1>CWI Trust Fabric</h1>
+<header class="top"><img class="badge" src="../brand/cwi-logo.jpg" alt="Cumulative Web Inc logo"><div><h1>CWI Trust Fabric</h1>
 <p class="sub">Cumulative Web Inc · signed claims, hash-chained · trust/1.0</p></div></header>
 <div class="nav"><a href="https://cumulativewebinc.github.io/cwi-trust-log/">← trust log</a><a href="https://cumulativewebinc.github.io/cwi-trust-log/achievements.html">achievements</a></div>
 <h2>CWI Memory Chain iOS PWA live + first anchor→verify→tamper loop<span class="tier">VERIFIED</span></h2>

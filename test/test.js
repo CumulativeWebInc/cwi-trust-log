@@ -5,7 +5,7 @@
  *
  * (a) ephemeral-keypair signature round-trip (never touches the real key)
  * (b) chain integrity over claims/index.json (recompute every hash + prev links + tip)
- * (c) signature verification of all 8 real envelopes against keys/ed25519.pub
+ * (c) signature verification of all N real envelopes against keys/ed25519.pub
  * (d) schema validation of every envelope
  * (e) achievements.json entries all resolve to real claim files
  */
@@ -53,7 +53,7 @@ const envs = index.claims.map(c => ({ idx: c, env: JSON.parse(readFileSync(join(
 
 // ---------- (b) chain integrity ----------
 {
-  ok('b1 index has 8 claims', index.claims.length === 8, `got ${index.claims.length}`);
+  ok('b1 index claims match index.count', index.claims.length === index.count, `got ${index.claims.length}, count=${index.count}`);
   let prev = 'GENESIS', chainOk = true, detail = '';
   for (const { idx, env } of envs) {
     const recomputed = sha256hex(canon(env));
@@ -77,7 +77,7 @@ const envs = index.claims.map(c => ({ idx: c, env: JSON.parse(readFileSync(join(
     if (good) n++;
     ok(`c sig ${env.claim_id.slice(-6)} ${env.subject}`, good);
   }
-  ok(`c9 all 8 real envelopes verify (${n}/8)`, n === 8);
+  ok(`c9 all ${index.count} real envelopes verify (${n}/${index.count})`, n === index.count);
 }
 
 // ---------- (d) schema validation ----------
@@ -103,7 +103,7 @@ const envs = index.claims.map(c => ({ idx: c, env: JSON.parse(readFileSync(join(
 // ---------- (e) achievements resolve ----------
 {
   const ach = JSON.parse(readFileSync(join(ROOT, 'achievements.json'), 'utf8'));
-  ok('e1 achievements.json has 8 entries', ach.length === 8, `got ${ach.length}`);
+  ok('e1 achievements.json mirrors chain count', ach.length === index.count, `got ${ach.length}, count=${index.count}`);
   let resOk = true, detail = '';
   const newestFirst = ach[0].claim_id === index.claims[index.claims.length - 1].claim_id;
   for (const a of ach) {

@@ -1,0 +1,36 @@
+# CWI Trust Fabric — llms.txt
+
+> A cryptographic transparency log for Cumulative Web Inc. Every public
+> claim the company makes is published here as a signed, hash-chained
+> envelope. Verify any claim yourself with zero trust in us.
+
+## Canonical resources
+
+- Live log: https://cumulativewebinc.github.io/cwi-trust-log/
+- Achievements feed: https://cumulativewebinc.github.io/cwi-trust-log/achievements.html
+- Machine-readable achievements: https://cumulativewebinc.github.io/cwi-trust-log/achievements.json
+- Chain index: https://cumulativewebinc.github.io/cwi-trust-log/claims/index.json
+- Protocol spec: https://cumulativewebinc.github.io/cwi-trust-log/TRUST-PROTOCOL.md
+- Public key: https://cumulativewebinc.github.io/cwi-trust-log/keys/ed25519.pub
+- Zero-trust verifier: https://cumulativewebinc.github.io/cwi-trust-log/verify.js
+- Machine-readable: https://cumulativewebinc.github.io/cwi-trust-log/.well-known/agent-card.json
+- Repo: https://github.com/CumulativeWebInc/cwi-trust-log
+
+## Key facts (verified 2026-09-23)
+
+- 11 signed claim envelopes (protocol trust/1.0), SHA-256 hash chain from
+  GENESIS, Ed25519 signatures. All 11 verify PASS with verify.js.
+- Chain tip: e6ed72e06b6ce45bd025da3a3c09a9be5331046c8a85e7edbc3ab7370fb61159
+- Tiers: VERIFIED (evidence observed at issuance) only. No receipt -> never VERIFIED.
+- The private signing key is never in the repo. Nothing here can sign — only verify.
+- History is append-only: protocol upgrades never rewrite envelopes.
+
+## Verify a claim in 3 steps
+
+```bash
+node verify.js https://cumulativewebinc.github.io/cwi-trust-log/claims/<claim_id>.json
+```
+
+verify.js is zero-dependency Node 18+. It checks the Ed25519 signature
+over canonical payload bytes, recomputes the SHA-256 hash, and walks the
+hash chain back to GENESIS. Exit 0 on PASS, 1 on FAIL.
