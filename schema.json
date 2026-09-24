@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "CWI Trust Log (#29)",
+  "url": "https://cumulativewebinc.github.io/cwi-trust-log/",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Web",
+  "author": {
+    "@type": "Organization",
+    "name": "Cumulative Web Inc",
+    "url": "https://cumulativeweb.com/"
+  },
+  "description": "Cryptographic transparency log of CWI claims: Ed25519-signed envelopes in a sha256 hash chain with a zero-trust verifier."
+}
