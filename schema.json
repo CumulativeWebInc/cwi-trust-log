@@ -10,5 +10,6 @@
     "name": "Cumulative Web Inc",
     "url": "https://cumulativeweb.com/"
   },
-  "description": "Cryptographic transparency log of CWI claims: Ed25519-signed envelopes in a sha256 hash chain with a zero-trust verifier."
+  "description": "Cryptographic transparency log of CWI claims: Ed25519-signed envelopes in a sha256 hash chain with a zero-trust verifier.",
+  "schema_version": "1.0.0"
 }
