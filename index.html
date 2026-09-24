@@ -10,7 +10,23 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CWI Trust Fabric — signed claim log">
 <meta name="twitter:description" content="Signed, hash-chained public claims. Verify with zero trust.">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"CWI Trust Fabric","description":"Cryptographic transparency log: Ed25519-signed claim envelopes (trust/1.0), SHA-256 hash chain from GENESIS.","url":"https://cumulativewebinc.github.io/cwi-trust-log/","publisher":{"@type":"Organization","name":"Cumulative Web Inc","url":"https://cumulativeweb.com"},"license":"https://github.com/CumulativeWebInc/cwi-trust-log","dateModified":"2026-09-23"}</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "CWI Trust Log (#29)",
+  "url": "https://cumulativewebinc.github.io/cwi-trust-log/",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Web",
+  "author": {
+    "@type": "Organization",
+    "name": "Cumulative Web Inc",
+    "url": "https://cumulativeweb.com/"
+  },
+  "description": "Cryptographic transparency log of CWI claims: Ed25519-signed envelopes in a sha256 hash chain with a zero-trust verifier.",
+  "schema_version": "1.0.0"
+}
+</script>
 <title>CWI Trust Fabric — signed claim log — CWI Trust Fabric</title><style>
 :root{--bg:#0b0b0e;--card:#141419;--gold:#e8b13c;--txt:#ececf1;--mut:#9a9aad;--line:#26262e}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.6 -apple-system,system-ui,Segoe UI,Roboto,sans-serif;padding:20px 14px 60px;max-width:760px;margin-left:auto;margin-right:auto}
